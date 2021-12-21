@@ -8,9 +8,9 @@ export default function About() {
                     <div className="flex flex-col items-center w-full lg:flex-row ">
                         <div className="">
                             <p className="text-3xl text-bold tracking-widest text-white  lg:text-4xl">MY WORK</p>
-                            <p className="mt-8 text-sm md:text-lg  text-white">I was never the best at school or academics, I'm just a supper curious guy. I struggle at my work but then this
+                            <p className="mt-8 text-sm md:text-lg  text-white">I was never the best at school or academics, I am just a supper curious guy. I struggle at my work but then this
 is life I guess. I love to share these ideas and theories that interests me. I spend a lot of time doing Leetcode 
-and building software but there's a lot more into it. I have been planning to work on a video format to document
+and building software but there is a lot more into it. I have been planning to work on a video format to document
 the logic, reasoning and struggles  behind learning software engineering.
 <br/> <br/>
 A combination of  innovation and story telling.</p>
