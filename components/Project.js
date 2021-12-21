@@ -135,7 +135,7 @@ export default function Project() {
                                     </blockquote>
                                     <figcaption className="font-medium">
                                     <div className="text-cyan-600 text-sm md:text-base">
-                                    A clone of news reading app 'Inshorts' made in React. Implemented Admin Dashboard to provide the functionality to easily add or remove more news (Crud operations). Used firebase cloudfirestore as the main data base. Deployed on Netlify.
+                                    A clone of news reading app Inshorts made in React. Implemented Admin Dashboard to provide the functionality to easily add or remove more news (Crud operations). Used firebase cloudfirestore as the main data base. Deployed on Netlify.
                                     </div>
                                     <div className="mt-4">
                                         <button className="bg-gray-300 mr-2 mb-2 text-gry  py-2 px-4 rounded-lg">

@@ -17,7 +17,7 @@ export default function Blog({ posts }) {
                         
                     <div className="grid grid-cols-1 md:grid-cols-3 mt-8">
                         {posts.map((post) => (
-                            <Link href={`/blog/${post.slug}`}>
+                            <Link href={`/blog/${post.slug}`} key={post.id}>
                             <div className="md:ml-10 md:px-4 py-4 md:transform md:motion-safe:hover:scale-110 ">
                             <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 ">
                                 

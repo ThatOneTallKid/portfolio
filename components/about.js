@@ -24,7 +24,7 @@ A combination of  innovation and story telling.</p>
                     <div className="mt-6 container flex-col  flex px-6 lg:flex-row  w-full justify-between">
                         <div className="py-8 md:py-10">
                             <p className="text-2xl md:text-3xl">Software Development</p>
-                            <div className='mt-3 text-sm md:text-lg'>
+                            <div className="mt-3 text-sm md:text-lg">
 
                             <ul type="circle" >
                                 
@@ -49,7 +49,7 @@ A combination of  innovation and story telling.</p>
                         </div>
                         <div className="py-8 md:py-10">
                             <p className="text-2xl md:text-3xl">Video Production</p>
-                            <div className='mt-3 text-sm md:text-lg'>
+                            <div className="mt-3 text-sm md:text-lg">
 
                             <ul type="circle" >
                                 
