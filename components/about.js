@@ -2,10 +2,10 @@
 
 export default function About() {
     return (
-        <div className="cont bg-gry mt-20  md:mt-40 xl:mt-60">
+        <div className="cont bg-gry mt-24  md:mt-40 xl:mt-60">
             <div className="bg-gry cont-color px-8 md:px-28 py-20 text-white">
-                <div className="container flex px-1  mx-auto lg:h-132 lg:py-16">
-                    <div className="flex flex-col items-start w-full lg:flex-row ">
+                <div className="container flex px-3   lg:h-132 lg:py-16">
+                    <div className="flex flex-col items-between w-full md:flex-row ">
                         <div className="">
                             <p className="text-3xl text-bold tracking-widest text-white  lg:text-4xl">MY WORK</p>
                             <p className="mt-8 text-sm md:text-lg  text-white">I was never the best at school or academics, I am just a supper curious guy. I struggle at my work but then this
