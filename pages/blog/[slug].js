@@ -9,7 +9,7 @@ export default function PostPage({ frontmatter: { title, date, }, slug, content 
     
     return (
         <div>
-            <div className="container lg:px-72 lg:py-20 mx-auto lg:flex flex-col">
+            <div className="container px-0.5 lg:px-72 lg:py-20 mx-auto lg:flex flex-col">
                 <div className="flex items-center justify-center w-full mt-2 ">
                     <Image  src = "/me/circle.png" width="175" height="175" />
                     
@@ -31,7 +31,7 @@ export default function PostPage({ frontmatter: { title, date, }, slug, content 
                         </div>
                     <div>
                         
-                        <div dangerouslySetInnerHTML={{ __html: marked.parse(content)}}></div>
+                        <div className="text-md" dangerouslySetInnerHTML={{ __html: marked.parse(content)}}></div>
                     </div>
                 </div>
                 <div className="mt-8 text-blue-500">

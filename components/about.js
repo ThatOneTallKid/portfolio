@@ -4,8 +4,8 @@ export default function About() {
     return (
         <div className="cont bg-gry mt-20  md:mt-40 xl:mt-60">
             <div className="bg-gry cont-color px-8 md:px-28 py-20 text-white">
-                <div className="container flex px-6  mx-auto lg:h-132 lg:py-16">
-                    <div className="flex flex-col items-center w-full lg:flex-row ">
+                <div className="container flex px-1  mx-auto lg:h-132 lg:py-16">
+                    <div className="flex flex-col items-start w-full lg:flex-row ">
                         <div className="">
                             <p className="text-3xl text-bold tracking-widest text-white  lg:text-4xl">MY WORK</p>
                             <p className="mt-8 text-sm md:text-lg  text-white">I was never the best at school or academics, I am just a supper curious guy. I struggle at my work but then this
@@ -21,7 +21,7 @@ A combination of  innovation and story telling.</p>
                     
                 </div>
                 <div>
-                    <div className="mt-6 container flex-col  flex px-6 lg:flex-row  w-full justify-between">
+                    <div className="mt-6 container flex-col  flex px-3 lg:flex-row  w-full justify-between">
                         <div className="py-8 md:py-10">
                             <p className="text-2xl md:text-3xl">Software Development</p>
                             <div className="mt-3 text-sm md:text-lg">
