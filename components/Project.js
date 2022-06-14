@@ -20,7 +20,7 @@ export default function Project() {
                                     </blockquote>
                                     <figcaption className="font-medium">
                                     <div className=" text-sm md:text-base text-cyan-600">
-                                    KiiT Archives is a Notes sharing platform app specifically for the students of KiiT University, Bhubaneshwar. Providing Engineering students notes for each and every subjects.
+                                    KIIT Archives is a Notes sharing platform app specifically for the students of KIIT University, Bhubaneshwar. Providing Engineering students notes of each and every subject for all branches.
                                     </div>
                                     <div className="mt-4">
                                         <button className="mb-2 mr-2 bg-gray-300  text-gry  py-2 px-4 rounded-lg">

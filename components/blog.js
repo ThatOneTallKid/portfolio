@@ -10,7 +10,7 @@ export default function Blog({ posts }) {
                 <div className="flex flex-col items-center justify-center w-full">
                     <div className="">
                         <p className="text-3xl font-bold tracking-widest text-gry">BLOGS</p>
-                        <div className="px-3 mt-3">
+                        <div className="px-3 mt-2">
                             <Image src="/line.svg" height={10} width={80}/>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ export default function Blog({ posts }) {
                             <div className="md:ml-10 md:px-4 py-4 md:transform md:motion-safe:hover:scale-110 ">
                             <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 ">
                                 
-                                <div className="pt-6 md:p-8 text-start md:text-left space-y-4">
+                                <div className="pt-6 md:p-8 text-start md:text-left space-y-4 border-solid border-2 border-sky-500 rounded-lg">
                                     <blockquote>
                                     <p className="text-lg font-bold">
                                         {post.frontmatter.title}
@@ -31,7 +31,7 @@ export default function Blog({ posts }) {
                                     <div className="text-cyan-600">
                                         {post.frontmatter.excerpt}
                                     </div>
-                                    <div className="text-gray-500">
+                                    <div className="text-gray-500 pt-6">
                                         {post.frontmatter.date}
                                     </div>
                                     </figcaption>
