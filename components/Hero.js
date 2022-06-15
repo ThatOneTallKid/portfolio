@@ -55,7 +55,6 @@ research and development.  </p>
                     background-size: cover;
                     
                     height: 272px;
-                    margin-left: -200px;
                     overflow-x: hidden;
                     
 
